@@ -1,4 +1,4 @@
-"""Counting letters in a string. Finished"""
+"""Counting letters in a string, Finished."""
 
 __author__ = "730447313"
 
