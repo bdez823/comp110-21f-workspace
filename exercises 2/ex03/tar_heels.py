@@ -1,6 +1,6 @@
 """An exercise in remainders and boolean logic."""
 
-__author__ = "730447313"
+__author__ = "ENTER YOUR 9-DIGIT PID HERE"
 
 
 user_int: int = int(input("Enter an int: "))
