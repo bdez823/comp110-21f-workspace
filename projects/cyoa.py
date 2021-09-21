@@ -15,6 +15,7 @@ NO_POINTS_CONSTANT: str = "\U0001F62C"
 
 
 def main() -> None:
+    """Main procedure of the program."""
     greet()
     global points
     points = 0
@@ -39,6 +40,7 @@ def main() -> None:
 
 
 def greet() -> None:
+    """Greets user, and records name."""
     print("In this adventure, you get to choose between taking part in a 3 round textual Boxing match, where you call your own strikes, to earn adventure points ")
     print("or a Letter guessing game where you will type a word and try to guess the which letter the computer selects each round their will be 5 rounds to try and earn the most points.")
     print("Points earned in each adventure will affect your overall adventure points.")
@@ -48,6 +50,7 @@ def greet() -> None:
 
 
 def textual_input_game() -> None:
+    """Boxing match game, takes user input assigning it an int, and using that int to see if it matches random integer to assign scores, random int also used to determine points lost or gained."""
     rounds: int = 3
     i: int = 1
     match_score: int = 0
@@ -104,6 +107,7 @@ def textual_input_game() -> None:
 
 
 def letter_input_game(x: int) -> int:
+    """Letter guessing game, takes user letter then function chooses random letter, and asks user to guess that letter."""
     global player
     rounds: int = 5
     i: int = 1
